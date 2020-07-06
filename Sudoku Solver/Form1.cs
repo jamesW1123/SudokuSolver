@@ -16,5 +16,36 @@ namespace Sudoku_Solver
         {
             InitializeComponent();
         }
+
+        private void btnSolve_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            int key = e.KeyValue;
+
+            switch (key)
+            {
+                case 37:
+
+                    break;
+                case 38:
+
+                    break;
+                case 39:
+                    this.ActiveControl = tb12;
+                    break;
+                case 40:
+
+                    break;
+            }
+        }
     }
 }
